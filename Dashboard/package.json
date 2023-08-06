@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "name": "sgdashboard",
+  "description": "sgdashboard",
+  "version": "1.0.0",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.11.11",
+    "@mui/x-data-grid": "^6.3.1",
+    "apexcharts": "^3.37.1",
+    "aster-utils": "^0.0.1",
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.1.0",
+    "jotai": "^2.1.0",
+    "notistack": "^3.0.1",
+    "react-apexcharts": "^1.4.0",
+    "react-query": "^3.39.3",
+    "react-use": "^17.4.0",
+    "sweetalert2": "^11.7.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.8",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "electron": "^21.3.3",
+    "electron-builder": "^23.6.0",
+    "next": "^12.3.4",
+    "nextron": "^8.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
+}
